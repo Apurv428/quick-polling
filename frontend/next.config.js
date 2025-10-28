@@ -6,6 +6,15 @@ const nextConfig = {
   swcMinify: true,
   compress: true,
   
+  // ADD THIS - Skip error page static generation issues
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+  
   // Security headers
   async headers() {
     return [
