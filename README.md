@@ -126,7 +126,7 @@ Frontend runs at: `http://localhost:3000`
 
 ### 5. Real-Time Features
 
-* Live vote updates via WebSocket
+* Live vote updates via polling
 * See active viewers count
 * Toast notifications for actions
 * Presence tracking
@@ -141,7 +141,7 @@ Frontend runs at: `http://localhost:3000`
 
 ### Admin Access
 
-* Visit: `http://localhost:3001/admin`
+* Visit: `http://localhost:3000/admin`
 * Enter the admin key to access dashboard
 
 ## Project Structure
